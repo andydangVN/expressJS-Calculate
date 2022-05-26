@@ -2,5 +2,23 @@
   "dependencies": {
     "express": "^4.18.1",
     "nodemon": "^2.0.16"
-  }
+  },
+  "name": "exjs-calculator-site",
+  "description": "1. npm install express\r 3. npm init\r 4. npm install nodemon\r 5. Hyper CLI: atom .",
+  "version": "1.0.0",
+  "main": "calculator.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/andydangVN/expressJS-Calculate.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/andydangVN/expressJS-Calculate/issues"
+  },
+  "homepage": "https://github.com/andydangVN/expressJS-Calculate#readme"
 }
