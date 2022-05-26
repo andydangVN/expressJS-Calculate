@@ -6,9 +6,7 @@ const port = (3000);
 const bodyParser = require('body-parser');
 app.use(bodyParser.urlencoded({ extended: true }));
 
-app.listen(port, function(){
-  console.log(`Example app listening on port ${port}`)
-});
+
 
 // route: / (home) is index.html
 app.get('/', function(req, res){
@@ -22,4 +20,13 @@ app.post('/', function(req, res){
   var result = num1 + num2;
   res.send("Result: " + result);
   console.log(req.body);
+});
+
+// route: / (home) is index.html
+app.get('/bmi', function(req, res){
+  res.sendFile(__dirname + "/BMIcalculator.html");
+});
+
+app.listen(port, function(){
+  console.log(`Example app listening on port ${port}`)
 });
