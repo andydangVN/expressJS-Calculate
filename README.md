@@ -3,7 +3,7 @@
 1. npm install express
 3. npm init
 4. npm install nodemon - auto refresh server with any change
-5. npm install body-parser - lấy dữ liệu respond truyền về từ method post.
+5. npm install body-parser - lấy dữ liệu respond truyền về từ method post.<br>
    **req.body.name: lấy giá trị post về route, name tương ứng với name trong input, button,...**
 
 6. Hyper CLI: atom .
